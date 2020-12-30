@@ -1,4 +1,4 @@
-<%@ page import="com.study.projectjeju.vos.UserVo" %>
+<%@ page import="com.project.projectjeju.vos.UserVo" %>
 <%@ page language="java" contentType="text/html" pageEncoding="UTF-8" trimDirectiveWhitespaces="true" %>
 <%
     Object userVoObject = session.getAttribute("UserVo");
