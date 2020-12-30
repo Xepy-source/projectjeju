@@ -1,0 +1,235 @@
+body > nav.body-item.menubox {
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    max-width: 80rem;
+    height: 5rem;
+    background: #ffffff;
+    border-radius: 1rem 1rem 0 0;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+body > nav.body-item.menubox > a:first-child {
+    margin-left: 1.5rem;
+}
+
+body > nav.body-item.menubox > a:first-child > img {
+    height: 2rem;
+}
+
+body > nav.body-item.menubox > ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    margin-right: 1.5rem;
+}
+
+body > nav.body-item.menubox > ul > li {
+    list-style-type: none;
+    font-size: 1.25rem;
+    color: #232323;
+    text-align: center;
+    cursor: pointer;
+    flex: 1;
+}
+
+body > nav.body-item.menubox > ul > li > a {
+    color: #232323;
+    text-decoration: none;
+}
+
+body > nav.body-item.menubox > ul > li > a:hover {
+    color: #4bacd9;
+    text-decoration: none;
+}
+
+body > nav.body-item.sub-menubox {
+    top: calc(5% + 5rem);
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    max-width: 80rem;
+    height: 3rem;
+    background: #ffffff;
+    border-radius: 0 0 1rem 1rem;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+body > nav.body-item.sub-menubox > div.sub-menubox.search-bar {
+    width: 30%;
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+    border: .3rem solid #4bacd9;
+    border-radius: .5rem;
+    display: flex;
+    align-items: center;
+}
+
+body > nav.body-item.sub-menubox > div.sub-menubox.search-bar > input {
+    width: 90%;
+    background: #ffffff;
+    outline: none;
+    border: none;
+    border-radius: .5rem;
+    padding: .5rem .5rem;
+    margin-right: .5rem;
+}
+
+body > nav.body-item.sub-menubox > div.sub-menubox.search-bar > input:focus {
+    outline: none;
+    border: none;
+}
+
+body > nav.body-item.sub-menubox > div.sub-menubox.search-bar > img {
+    user-select: none;
+    cursor: pointer;
+    height: 1.2rem;
+    margin-right: .2rem;
+}
+
+body > nav.body-item.sub-menubox > div.sub-menubox.popular-search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 1rem;
+    margin-bottom: 1.2rem;
+}
+
+body > nav.body-item.sub-menubox > div.sub-menubox.popular-search > div.popular-search.title {
+    margin-right: .7rem;
+    font-size: 1rem;
+    color: #636363;
+}
+
+body > nav.body-item.sub-menubox > div.sub-menubox.popular-search > a {
+    font-size: .8rem;
+    text-decoration: none;
+    color: #878787;
+}
+
+body > nav.body-item.sub-menubox > div.sub-menubox.popular-search > a:not(:last-child) {
+    margin-right: .5rem;
+}
+
+body > nav.body-item.sub-menubox > div.sub-menubox.empty {
+    align-items: center;
+    flex: 1;
+}
+
+body > nav.body-item.sub-menubox > div.sub-menubox.empty > a {
+    padding-top: .7rem;
+    margin-right: 2rem;
+    float: right;
+}
+
+body > nav.body-item.sub-menubox > div.sub-menubox.empty > a > img {
+    height: 1.5rem;
+}
+
+body > nav.body-item.sub-menubox > div.sub-menubox.empty > div.sub-menubox.weather-seogwipo {
+    display: flex;
+    flex-direction: row;
+    font-size: .9rem;
+    color: #636363;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+    align-items: center;
+    float: right;
+    cursor: pointer;
+}
+
+body > nav.body-item.sub-menubox > div.sub-menubox.empty > div.sub-menubox.weather-seogwipo > img {
+    height: 3rem;
+}
+
+body > nav.body-item.sub-menubox > div.sub-menubox.empty > div.sub-menubox.weather-seogwipo > div.weather-item {
+    display: flex;
+    flex-direction: column;
+}
+
+body > nav.body-item.sub-menubox > div.sub-menubox.empty > div.sub-menubox.weather-seogwipo > div.weather-item > span.weather-item.temperature {
+    font-size: 1.2rem;
+}
+
+body > nav.body-item.sub-menubox > div.sub-menubox.empty > div.sub-menubox.weather-jeju {
+    display: flex;
+    flex-direction: row;
+    font-size: .9rem;
+    color: #636363;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+    align-items: center;
+    float: right;
+    cursor: pointer;
+}
+
+body > nav.body-item.sub-menubox > div.sub-menubox.empty > div.sub-menubox.weather-jeju > img {
+    height: 3rem;
+}
+
+body > nav.body-item.sub-menubox > div.sub-menubox.empty > div.sub-menubox.weather-jeju > div.weather-item {
+    display: flex;
+    flex-direction: column;
+}
+
+body > nav.body-item.sub-menubox > div.sub-menubox.empty > div.sub-menubox.weather-jeju > div.weather-item > span.weather-item.temperature {
+    font-size: 1.2rem;
+}
+
+body > nav.body-item.sub-menubox > div.sub-menubox.login-button {
+    margin: .5rem 2rem 1.5rem 0;
+    font-size: 1.25rem;
+    text-decoration: none;
+    padding: 0 1.25rem;
+    line-height: 2.5rem;
+    background: #4bacd9;
+    border: .125rem solid transparent;
+    color: #f5f5f5;
+    cursor: pointer;
+    display: block;
+    border-radius: 1.125rem;
+    text-align: center;
+    float: right;
+}
+
+body > nav.body-item.sub-menubox > div.sub-menubox.login-button:hover {
+    background: #f5f5f5;
+    color: #4bacd9;
+    border: .125rem solid #4bacd9;
+    border-radius: 1.125rem;
+}
+
+body > nav.body-item.sub-menubox > div.sub-menubox.logout-button {
+    margin: .5rem 2rem 1.5rem 0;
+    font-size: 1.25rem;
+    text-decoration: none;
+    padding: 0 1.25rem;
+    line-height: 2.5rem;
+    background: #4bacd9;
+    border: .125rem solid transparent;
+    color: #f5f5f5;
+    cursor: pointer;
+    display: block;
+    border-radius: 1.125rem;
+    text-align: center;
+    float: right;
+}
+
+body > nav.body-item.sub-menubox > div.sub-menubox.logout-button:hover {
+    background: #f5f5f5;
+    color: #4bacd9;
+    border: .125rem solid #4bacd9;
+    border-radius: 1.125rem;
+}

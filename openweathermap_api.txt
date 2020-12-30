@@ -1,0 +1,15 @@
+api key : 5a20fbfc93d25091d4fb38f5454db389
+
+jeju : 33.5080179(lat)  //  126.5185343(lon)
+seogwipo : 33.2502176(lat)  //  126.5587452(lon)
+
+api 주소 : api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={API key}
+api weather condition&icon : https://openweathermap.org/weather-conditions
+
+xhr, json 사용
+
+https://openweathermap.org/
+
+
+api.openweathermap.org/data/2.5/weather?lat=33.5080179&lon=126.5185343&appid=5a20fbfc93d25091d4fb38f5454db389
+api.openweathermap.org/data/2.5/weather?lat=33.2502176&lon=126.5587452&appid=5a20fbfc93d25091d4fb38f5454db389

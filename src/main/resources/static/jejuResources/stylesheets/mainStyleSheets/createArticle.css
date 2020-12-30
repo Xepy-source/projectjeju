@@ -1,0 +1,98 @@
+input {
+    font-family: 'Nanum Gothic Coding', monospace;
+    font-size: .7rem;
+    font-weight: 400;
+}
+
+#article_content {
+    font-family: 'Nanum Gothic Coding', monospace;
+    font-size: .9rem;
+    font-weight: 700;
+}
+
+#article_writer {
+    padding-left: 1rem;
+}
+
+body > div > div.body-item.article-container {
+    margin-top: 3rem;
+    position: relative;
+    padding-left: 16.5%;
+}
+
+body > div > div.body-item.article-container > div.article-item.container-title {
+    padding: .5rem 0 0 8.5rem;
+    border-radius: 1rem 0 0 0;
+    background: #4bacd9;
+    color: white;
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+
+body > div > div.body-item.article-container > div.article-item.container-sub-title {
+    padding: 0 0 .5rem 8.5rem;
+    border-radius: 0 0 0 1rem;
+    background: #4bacd9;
+    color: white;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+body > div > div.body-item.article-container > form {
+    margin: 2rem 0 0 8.5rem;
+}
+
+body > div > div.body-item.article-container > form > table {
+    border-spacing: 1rem;
+}
+
+body > div > div.body-item.article-container > form > table > tbody > tr > td:first-child {
+    text-align: right;
+}
+
+body > div > div.body-item.article-container > form > table > tbody > tr > td > input {
+    border: 0.05rem solid #232323;
+    border-radius: .5rem;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    width: 45rem;
+}
+
+#article_image > input {
+    border: 0;
+    width: 14rem;
+}
+
+body > div > div.body-item.article-container > form > table > tbody > tr > td > input:focus {
+    outline: none;
+}
+
+body > div > div.body-item.article-container > form > table > tbody > tr > td > select {
+    width: 20rem;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    border-radius: .5rem;
+    border: 0.05rem solid #232323;
+}
+
+body > div > div.body-item.article-container > form > table > tbody > tr > td > textarea {
+    padding: .5rem 1rem;
+    resize: none;
+    width: 45rem;
+    height: 20rem;
+    font-size: 1.25rem;
+    border-radius: .5rem;
+    border: 0.05rem solid #232323;
+}
+
+body > div > div.body-item.article-container > form > table > tbody > tr > td > textarea:focus {
+    outline: none;
+}
+
+input.button {
+    margin-bottom: 10rem;
+    font-size: 1rem;
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    border: 0.05rem solid #232323;
+}

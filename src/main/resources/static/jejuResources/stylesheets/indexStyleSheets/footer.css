@@ -1,0 +1,32 @@
+body > footer {
+    padding: 1rem 0;
+    background: #171515;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: .8rem;
+    color: #8b8b8b;
+}
+
+body > footer > a {
+    margin-right: .75rem;
+}
+
+body > footer > a > img {
+    height: 4rem;
+}
+
+body > footer > div.footer-information > div.information-container {
+    margin-bottom: .5rem;
+}
+
+body > footer > div.footer-information > div.information-container > a {
+    color: #8b8b8b;
+    text-decoration: none;
+}
+
+body > footer > div.footer-information > div.information-container > span {
+    margin: 0 0.2rem;
+}

@@ -1,0 +1,48 @@
+@import "menubox.css";
+@import "indexTitle.css";
+@import "information.css";
+@import "login.css";
+@import "loading.css";
+@import "footer.css";
+@import "register.css";
+@import "map.css";
+@import "bestArticle.css";
+@import "hotplace.css";
+
+body {
+    width: 100vw;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #232323;
+    margin: 0;
+    padding: 0;
+}
+
+body > div.top-remote {
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    background: #ececec;
+    border-radius: 10%;
+    cursor: pointer;
+    z-index: 8;
+}
+
+body > div.top-remote > img {
+    width: 70%;
+    height: 85%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+body > div.body-item.background {
+    height: 90vh;
+    background-image: url("../../images/indexImages/JejuBackground.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    z-index: 0;
+}

@@ -1,0 +1,36 @@
+@import "menubox.css";
+@import "footer.css";
+@import "login.css";
+@import "register.css";
+@import "boardAll.css";
+@import "createArticle.css";
+@import "../indexStyleSheets/loading.css";
+
+body {
+    width: 100vw;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #232323;
+    margin: 0;
+    padding: 0;
+}
+
+body > div.top-remote {
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    background: #ececec;
+    border-radius: 10%;
+    cursor: pointer;
+    z-index: 8;
+}
+
+body > div.top-remote > img {
+    width: 70%;
+    height: 85%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

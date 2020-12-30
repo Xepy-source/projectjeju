@@ -1,0 +1,140 @@
+body > div.body-item.map-container {
+    position: relative;
+    margin: 4rem 0;
+}
+
+body > div.body-item.map-container > div.map-item.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #4bacd9;
+    font-size: 3rem;
+}
+
+body > div.body-item.map-container > div.map-item.title > div.title.title1 {
+    font-weight: 400;
+    margin-right: 1rem;
+}
+
+body > div.body-item.map-container > div.map-item.title > div.title.title2 {
+    font-weight: 600;
+}
+
+body > div.body-item.map-container > div.map-item.explanation {
+    padding-top: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #636363;
+}
+
+body > div.body-item.map-container > div.map-item.map {
+    margin-top: 2rem;
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+body > div.body-item.map-container > div.map-item.map > img {
+    height: 30rem;
+    position: relative;
+    z-index: 0;
+}
+
+body > div.body-item.map-container > div.map-item.map > a {
+    color: #636363;
+    font-weight: 500;
+    position: absolute;
+    text-decoration: none;
+    z-index: 1;
+}
+
+body > div.body-item.map-container > div.map-item.map > a.chagui {
+    top: 47.5%;
+    left: 0.5%;
+}
+
+body > div.body-item.map-container > div.map-item.map > a.hankyeong {
+    top: 47%;
+    left: 9%;
+}
+
+body > div.body-item.map-container > div.map-item.map > a.beyang {
+    top: 31%;
+    left: 6.7%;
+}
+
+body > div.body-item.map-container > div.map-item.map > a.hanlim {
+    top: 37%;
+    left: 15.5%;
+}
+
+body > div.body-item.map-container > div.map-item.map > a.aewol {
+    top: 30%;
+    left: 28%;
+}
+
+body > div.body-item.map-container > div.map-item.map > a.jeju {
+    top: 21.5%;
+    left: 45.6%;
+}
+
+body > div.body-item.map-container > div.map-item.map > a.jocheon {
+    top: 13.5%;
+    left: 62.6%;
+}
+
+body > div.body-item.map-container > div.map-item.map > a.gujwa {
+    top: 11.5%;
+    left: 76.6%;
+}
+
+body > div.body-item.map-container > div.map-item.map > a.woodo {
+    top: 6.5%;
+    left: 95%;
+}
+
+body > div.body-item.map-container > div.map-item.map > a.seongsan {
+    top: 28.5%;
+    left: 85%;
+}
+
+body > div.body-item.map-container > div.map-item.map > a.pyoseon {
+    top: 37.5%;
+    left: 73.5%;
+}
+
+body > div.body-item.map-container > div.map-item.map > a.namwon {
+    top: 46.5%;
+    left: 61.5%;
+}
+
+body > div.body-item.map-container > div.map-item.map > a.seogwipo {
+    top: 54.5%;
+    left: 48.5%;
+}
+
+body > div.body-item.map-container > div.map-item.map > a.joongmoon {
+    top: 55.5%;
+    left: 37%;
+}
+
+body > div.body-item.map-container > div.map-item.map > a.andeok {
+    top: 54.5%;
+    left: 22%;
+}
+
+body > div.body-item.map-container > div.map-item.map > a.daejoeng {
+    top: 61.5%;
+    left: 11.5%;
+}
+
+body > div.body-item.map-container > div.map-item.map > a.gapha {
+    top: 85.5%;
+    left: 25%;
+}
+
+body > div.body-item.map-container > div.map-item.map > a.mara {
+    top: 93.5%;
+    left: 24%;
+}

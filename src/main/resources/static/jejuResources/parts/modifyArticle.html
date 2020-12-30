@@ -1,0 +1,71 @@
+<div class="body-item article-container">
+    <div class="article-item container-title">추억 공유</div>
+    <div class="article-item container-sub-title">당신의 여행을 공유해주세요</div>
+    <form id="article-form" class="article-item form" method="post" enctype="multipart/form-data">
+        <table>
+            <tbody>
+            <tr>
+                <td>공유할 추억의 이름</td>
+                <td id="article_title"><input type="text" name="title" placeholder="제목" maxlength="100" autofocus></td>
+            </tr>
+            <tr>
+                <td>추억의 사진</td>
+                <td id="article_image"><input type="file" name="image" accept="image/png, image/jpeg"></td>
+            </tr>
+            <tr>
+                <td>추억의 분류</td>
+                <td id="article_classification"><select name="classification">
+                    <option value="">분류를 선택해주세요</option>
+                    <option value="tourist-destination">관광지</option>
+                    <option value="restaurant">음식점</option>
+                    <option value="lodgment">숙박</option>
+                    <option value="shopping">쇼핑</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>추억의 위치</td>
+                <td id="article_location"><select name="location">
+                    <option value="">위치를 선택해주세요</option>
+                    <option value="chagui">차귀도</option>
+                    <option value="hankyeong">한경면</option>
+                    <option value="beyang">비양도</option>
+                    <option value="hanlim">한림읍</option>
+                    <option value="aewol">애월읍</option>
+                    <option value="jeju">제주시</option>
+                    <option value="jocheon">조천읍</option>
+                    <option value="gujwa">구좌읍</option>
+                    <option value="woodo">우도</option>
+                    <option value="seongsan">성산읍</option>
+                    <option value="pyoseon">표선면</option>
+                    <option value="namwon">남원읍</option>
+                    <option value="seogwipo">서귀포시</option>
+                    <option value="joongmoon">중문</option>
+                    <option value="andeok">안덕면</option>
+                    <option value="daejoeng">대정읍</option>
+                    <option value="gapha">가파도</option>
+                    <option value="mara">마라도</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>추억의 내용</td>
+                <td id="article_content"><textarea name="content" placeholder="내용"></textarea></td>
+            </tr>
+            <tr>
+                <td>해시태그</td>
+                <td id="article_hashtag"><input type="text" name="hashtags" placeholder="쉼표(,)로 구분하고 #은 빼고 적어주세요."
+                                                maxlength="100"></td>
+            </tbody>
+            <tfoot>
+            <tr>
+                <td></td>
+                <td align="right">
+                    <div class="table-item button-container">
+                        <input class="button" type="reset" value="초기화">
+                        <input class="button" type="submit" value="작성">
+                    </div>
+                </td>
+            </tr>
+            </tfoot>
+        </table>
+    </form>
+</div>

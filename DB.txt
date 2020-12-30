@@ -1,0 +1,45 @@
+create database `project_jeju`;
+
+create table `project_jeju`.`users` (
+    `user_index` int unsigned not null auto_increment primary key,
+    `user_email` nvarchar(100) not null unique,
+    `user_password` nvarchar(128) not null,
+    `user_name` nvarchar(4) not null,
+    `user_nickname` nvarchar(15) not null unique,
+    `user_contact` nvarchar(11) not null unique,
+    `user_birth` nvarchar(8) not null
+);
+
+alter table `project_jeju`.`users` add `user_image` longblob;
+alter table `project_jeju`.`users` add `user_level` int not null default 9;
+
+create table `project_jeju`.`weather` (
+    `weather_index` int unsigned not null auto_increment primary key,
+    `weather_city` nvarchar(10) not null,
+    `weather_condition` int not null,
+    `weather_temperature` int not null,
+    `weather_written_date` date not null,
+    `weather_written_hour` int not null,
+    `weather_icon` nvarchar(3) not null
+);
+
+create table `project_jeju`.`articles` (
+    `article_index` int unsigned auto_increment not null primary key ,
+    `user_index` int unsigned not null,
+    `article_title` nvarchar(100) not null ,
+    `article_image` longblob not null,
+    `article_location` nvarchar(10) not null,
+    `article_content` nvarchar(10000) not null,
+    `article_hashtag` nvarchar(100) not null,
+    `board_classification` nvarchar(100) not null,
+    foreign key (`board_classification`) references `project_jeju`.`boards` (`board_classification`) on delete cascade,
+    foreign key (`user_index`) references `project_jeju`.`users` (`user_index`) on delete cascade
+);
+
+create table `project_jeju`.`boards` (
+    `board_index` int unsigned auto_increment not null primary key,
+    `board_name` nvarchar(10) not null,
+    `board_read_level` tinyint not null default 9,
+    `board_write_level` tinyint not null default 9,
+    `board_classification` nvarchar(100) not null unique
+);
